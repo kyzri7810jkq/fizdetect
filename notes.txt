@@ -1,0 +1,22 @@
+https://www.instructables.com/id/Face-Detectionrecognition/
+
+
+1. Install open cv
+
+$ pip install opencv-python
+
+2. run face_D.py
+
+$ python face_D.py
+
+3. Train dataset
+
+$ python faceR.py
+
+if error occurs: $ pip install image 
+
+Then, $ pip install opencv-contrib-python
+
+4. Recognition
+
+$ python faceDetector.py
