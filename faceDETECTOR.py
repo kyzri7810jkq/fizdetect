@@ -17,10 +17,10 @@ while 1:
         cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
         id,conf=rec.predict(gray[y:y+h,x:x+w])
         if(id==1):
-            print("\n\Kirbs--------\n\n")
+            print("\n\----Rica--------\n\n")
             cap.release()
         if(id==2):
-            id="Michelle"
+            print("\n\----Michelle--------\n\n")
             cap.release()
         if id==3:
             print("\n\nSam--------\n\n")
