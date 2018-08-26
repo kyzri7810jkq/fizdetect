@@ -1,6 +1,12 @@
 https://www.instructables.com/id/Face-Detectionrecognition/
 
 
+Requirements:
+python version 3.7
+pip 18.0
+CV2 3.4.2
+
+
 1. Install open cv
 
 $ pip install opencv-python
