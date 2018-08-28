@@ -16,15 +16,20 @@ while 1:
     for (x,y,w,h) in faces:
         cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
         id,conf=rec.predict(gray[y:y+h,x:x+w])
-        if(id==1):
-            print("\n\----Rica--------\n\n")
-            cap.release()
+        #if(id==1):
+        #    print("\n\----Rica--------\n\n")
+        #    cap.release()
         if(id==2):
             print("\n\----Michelle--------\n\n")
             cap.release()
         if id==3:
             print("\n\nSam--------\n\n")
-            cap.release()
+           # cap.release() 
+        if id==4:
+            print("\n\Ayaka--------\n\n") 
+        if id==5:
+            print("\n\Moe--------\n\n")
+            #cap.release()
         #cv2.cv.PutText(cv2.cv.fromarray(img),str(id),(x,y+h),font,255)
     cv2.imshow('img',img)
     if cv2.waitKey(1) == ord('q'):

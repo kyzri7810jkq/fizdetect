@@ -11,6 +11,10 @@ CV2 3.4.2
 
 $ pip install opencv-python
 
+if error:
+
+$ pip install opencv-contrib-python
+
 2. run face_D.py
 
 $ python face_D.py
